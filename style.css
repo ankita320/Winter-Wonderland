@@ -1,0 +1,319 @@
+# Winter-Wonderland
+https://replit.com/@sahaankita348/Winter-Wonderland#t.js
+  
+
+.title {
+  font-size: 200px;
+  margin-left: 0px;
+  margin-top: 120px;
+  font-family: 'Waterfall', cursive;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00e699, 0 0 40px #00e6c7, 0 0 50px #00e6a1, 0 0 60px #00e6ad, 0 0 70px #00e6c0;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #4dffe1, 0 0 40px #4dfff0, 0 0 50px #4df9ff, 0 0 60px #4deaff, 0 0 70px #4df3ff, 0 0 80px #4deaff;
+  }
+}
+
+.begin {
+  color: white;
+  font-size: 40px;
+  font-family: fantasy;
+  border-radius: 15px;
+  background-image: linear-gradient(270deg, rgb(140, 228, 240), rgb(53, 218, 218));
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-left: 620px;
+  border-style: double;
+  border-width: 10px;
+  border-color:rgb(24, 93, 116);
+  
+}
+
+.link:link {
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+.link:visited {
+  text-decoration: white;
+}
+
+
+.games {
+  display: flex;
+}
+.first {
+  font-size: 180px;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  margin-top: 130px;
+  font-family: 'waterfall', cursive;
+  background-image: linear-gradient(300deg, rgb(217, 255, 0), rgb(40, 207, 104))
+}
+
+.second {
+  font-size: 180px;
+  border-radius: 15px;
+    margin-top: 160px;
+      color: white;
+  border: none;
+  font-family: 'waterfall', cursive;
+   background-image: linear-gradient(340deg, rgb(64, 221, 182), rgb(71, 147, 197))
+}
+.third {
+  font-size: 80px;
+    margin-top: 130px;
+  border-radius: 15px;
+    color: white;
+  border: none;
+  font-family: 'waterfall', cursive;
+   background-image: linear-gradient(140deg, rgb(61, 86, 231), rgb(161, 49, 212))
+}
+
+.fourth {
+  font-size: 80px;
+  border-radius: 15px;
+    margin-top: 160px;
+    color: white;
+     background-image: linear-gradient(40deg, red, yellow);
+  border: none;
+  font-family: 'waterfall', cursive;
+}
+
+.f:link {
+  text-decoration: none;
+}
+
+
+
+.question1 {
+  display: flex;
+  color: white;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 2em;
+}
+  
+body{
+  background-color: rgb(200, 240, 245);
+}
+
+  img {
+    font-size: 30px;
+  }
+
+
+  h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    color: rgb(233, 248, 250);
+    border-style: double;
+    border-width: 7px;
+  }
+
+  button{
+    color: rgb(158, 62, 102);
+    background-color: pink;
+    border-width: 15px;
+    border-color: pink;
+    font-size: 30px;
+    border-radius: 40px;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  button:hover{
+    color: pink;
+    background-color: rgb(158, 62, 102);
+    border-width: 15px;
+    border-color: rgb(158, 62, 102);
+    font-size: 30px;
+    border-radius: 40px;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+ .ok {
+   margin-left: 200px;
+ } 
+
+ .winter {
+   font-size: 72px;
+   color:rgb(255, 255, 255);
+
+   font-family: 'Waterfall', cursive;
+ }
+
+ #yay {
+   font-size: 40px;
+   background-image: linear-gradient(270deg, rgb(0, 102, 255), rgb(47, 224, 186));
+   color: white;
+   font-weight: bold;
+   border-color: rgb(128, 172, 238);
+margin-left: 550px;
+ }
+ 
+#answer {
+  font-size: 40px;
+   background-image: linear-gradient(270deg, rgb(0, 102, 255), rgb(47, 224, 186));
+   color: white;
+   font-weight: bold;
+   border-color: rgb(128, 172, 238);
+   margin-left: 450px;
+ }
+
+ #answer1 {
+   font-size: 40px;
+   background-image: linear-gradient(270deg, rgb(0, 102, 255), rgb(47, 224, 186));
+   color: white;
+   font-weight: bold;
+   border-color: rgb(128, 172, 238);
+   margin-left: 530px;
+ }
+
+ #answer2 {
+   font-size: 40px;
+   background-image: linear-gradient(270deg, rgb(0, 102, 255), rgb(47, 224, 186));
+   color: white;
+   font-weight: bold;
+   border-color: rgb(128, 172, 238);
+   margin-left: 430px;
+ }
+ #answer3 {
+   font-size: 40px;
+   background-image: linear-gradient(270deg, rgb(0, 102, 255), rgb(47, 224, 186));
+   color: white;
+   font-weight: bold;
+   border-color: rgb(128, 172, 238);
+   margin-left: 580px;
+ }
+
+ #answer4 {
+   font-size: 40px;
+   background-image: linear-gradient(270deg, rgb(0, 102, 255), rgb(47, 224, 186));
+   color: white;
+   font-weight: bold;
+   border-color: rgb(128, 172, 238);
+   margin-left: 530px;
+ }
+ #answer5 {
+   font-size: 40px;
+   background-image: linear-gradient(270deg, rgb(0, 102, 255), rgb(47, 224, 186));
+   color: white;
+   font-weight: bold;
+   border-color: rgb(128, 172, 238);
+   margin-left: 550px;
+ }
+ #answer6 {
+   font-size: 40px;
+   background-image: linear-gradient(270deg, rgb(0, 102, 255), rgb(47, 224, 186));
+   color: white;
+   font-weight: bold;
+   border-color: rgb(128, 172, 238);
+   margin-left: 530px;
+ }
+ #answer7 {
+   font-size: 40px;
+   background-image: linear-gradient(270deg, rgb(0, 102, 255), rgb(47, 224, 186));
+   color: white;
+   font-weight: bold;
+   border-color: rgb(128, 172, 238);
+   margin-left: 530px;
+ }
+
+ #answer9{
+   font-size: 40px;
+   background-image: linear-gradient(270deg, rgb(0, 102, 255), rgb(47, 224, 186));
+   color: white;
+   font-weight: bold;
+   border-color: rgb(128, 172, 238);
+   margin-left: 500px;
+ }
+ #answer10 {
+   font-size: 40px;
+   background-image: linear-gradient(270deg, rgb(0, 102, 255), rgb(47, 224, 186));
+   color: white;
+   font-weight: bold;
+   border-color: rgb(128, 172, 238);
+   margin-left: 530px;
+ }
+
+ #button {
+   font-size: 40px;
+   background-image: linear-gradient(270deg, rgb(0, 102, 255), rgb(47, 224, 186));
+   color: white;
+   font-weight: bold;
+   border-color: rgb(128, 172, 238);
+   margin-left: 550px;
+ }
+
+ .lala {
+   color: white;
+   font-size: 174px;
+   background-color: skyblue;
+   border-width: 10px;
+   font-family: 'waterfall', cursive
+ }
+
+
+  /* feel free to change any and all of this */
+ body{
+  background-image: linear-gradient(to left, rgb(192, 225, 255), rgb(68, 194, 156));
+}
+#titleText{
+  color: whitesmoke;
+  text-align: center;
+  font-family:cursive;
+}
+
+#quoteButton {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border-radius: 7px;
+  font-family:cursive;
+}
+
+.Image{
+  width: 30%;
+  display: block;
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-bottom: 30px;
+}
+
+#quote {
+  text-align: center;
+  margin-right: 30%;
+  margin-left: 30%;
+  font-family:cursive;
+  background-color: whitesmoke;
+  padding: 1%; 
+  border-radius: 3px;
+}
+
+.agamaga {
+  font-size:180px;
+
+font-family: 'waterfall', cursive;
+  color: white;
+padding-left: 350px;
+  background-color: navy;
+  border-style: double;
+  border-width: 10px;
+  border-color: white;
+}
